@@ -2,6 +2,7 @@
   "name": "merry-christmas",
   "private": false,
   "version": "0.0.0",
+  "homepage": ".",
   "type": "module",
   "scripts": {
     "dev": "vite",
