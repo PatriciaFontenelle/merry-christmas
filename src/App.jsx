@@ -17,7 +17,6 @@ const VideoJS = (props) => {
 
       const player = (playerRef.current = videojs(videoElement, options, () => {
         videojs.log("player is ready");
-        player.play();
         onReady && onReady(player);
       }));
 
@@ -67,7 +66,6 @@ const App = () => {
 
   const handlePlayerReady = (player) => {
     playerRef.current = player;
-    player.play();
 
     // You can handle player events here, for example:
     player.on("waiting", () => {
