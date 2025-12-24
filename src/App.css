@@ -1,0 +1,22 @@
+#bg {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("/src/assets/bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#video-container {
+  width: 80vw;
+  margin-top: 70px;
+}
+
+.video-player-test {
+  border: 3px solid blue;
+  width: 65vw;
+  margin-top: 70px;
+}
